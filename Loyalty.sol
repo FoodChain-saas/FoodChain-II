@@ -42,9 +42,9 @@ contract LoyaltyPointTracker is ChainlinkClient, MyERC721Token{
     function redeemPoints(uint pointsToRedeem) external {
         require(loyaltyPoints[msg.sender] >= pointsToRedeem, "Insufficient loyalty points");
 
+        require(msg.sender == owner, "This food point does not belong to you");
         loyaltyPoints[msg.sender] -= pointsToRedeem;
         emit PointsRedeemed(msg.sender, pointsToRedeem);
-        // Additional logic to initiate the free order process
     }
 
 
@@ -72,7 +72,7 @@ contract LoyaltyPointTracker is ChainlinkClient, MyERC721Token{
         pointConversionRate = uint(_price);
     }
 
-    // function updateConversionRate() external {
-    //     getCurrencyPrice();
-    // }
+    function updateConversionRate() external {
+        getCurrencyPrice();
+    }
 }

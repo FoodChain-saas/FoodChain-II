@@ -558,6 +558,13 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "updateConversionRate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -823,11 +830,11 @@
 			]
 		},
 		"Loyalty.sol": {
-			"keccak256": "0x15c9e5bde5ff66c7f2ea649dcce11db251f318efe43b3ec89960ee325bc9f624",
+			"keccak256": "0x83ed713605f17c41d8235c588cdf046108748211a6b8c119c5cc595daf8453af",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://216a5534c3277176c7302573800b8dc98cc896160dc6c447f8dda4e98e8f5961",
-				"dweb:/ipfs/Qmc8mtT5JsC5g9bAeDSi8PsWBnTtArNp6Li8ABpoV8NqhU"
+				"bzz-raw://d28caa15961d5a433fd31f13f9643aa32e4aca20390bc8609cbeba1b703c7bc7",
+				"dweb:/ipfs/QmS2W2GvaWzetsCiX3etauZEHTwo2BzxJj2KyfarEogavE"
 			]
 		},
 		"MyERC721.sol": {
