@@ -15,7 +15,7 @@ contract MyERC721Token is ERC721 {
         _tokenIds.increment();
         uint256 newTokenId = _tokenIds.current();
         _mint(receipient, newTokenId);
-        // _setTokenURI(newTokenId, tokenURI);
+        // tokenURI(newTokenId, tokenURI);
         return newTokenId;
     }
 }

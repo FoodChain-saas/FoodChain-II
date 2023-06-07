@@ -76,3 +76,8 @@ contract LoyaltyPointTracker is ChainlinkClient, MyERC721Token{
         getCurrencyPrice();
     }
 }
+
+// Chainlink LinkToken Address for Ethereum Mainnet
+// 0x514910771AF9Ca65af840dff83E8264EcF986CA
+// Chainlink Oracle Address for
+// 0x72AFAECF99C9d9C8215fF44C77B94B99C28741e8

@@ -540,10 +540,10 @@
 			]
 		},
 		"MyERC721.sol": {
-			"keccak256": "0x64e814717632b5003dbc42f43b1713ea37d59f530e20b631f01152576e1ba17c",
+			"keccak256": "0x3ae4f6d49a7d96ce7e3ba09080f80fddd270c763f98e5236948503d5ec02188d",
 			"urls": [
-				"bzz-raw://9e35d84de2d86dc012e43e7cd04ceefa2df1fbff27df80d8659f781c3f3a961e",
-				"dweb:/ipfs/QmWvtCru9DqtXh7x3sfDvofpgS4Z7iYtKnTmkfT1UqziuB"
+				"bzz-raw://508e4420603e7f927ad28467c2abe8f1b5538b9090a7e96e6ad9186301b2a37a",
+				"dweb:/ipfs/QmSdjzN4mocLJfo9iYPFFaJ3Srzpm2aRwHixbLUU8UQwLt"
 			]
 		}
 	},
